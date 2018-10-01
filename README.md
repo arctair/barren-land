@@ -17,12 +17,15 @@ Then inspect the target/classes folder for `Application`
 Execute
 ```
 cd target/classes
-java Application <myBarrenLandInput>
+java Application
 ```
 For example:
 ```
 $ cd target/classes
-$ java Application '{"48 192 351 207", "48 392 351 407", "120 52 135 547", "260 52 275 547"}'
+$ java Application
+{"0 292 399 307"}
+116800 116800
+$ echo '{"48 192 351 207", "48 392 351 407", "120 52 135 547", "260 52 275 547"}' | java Application
 22816 192608
 ```
 ## Notes
