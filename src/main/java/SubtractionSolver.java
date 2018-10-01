@@ -60,7 +60,7 @@ public class SubtractionSolver {
 		);
 	}
 
-	public List<Integer> areas(List<Rectangle> rs) {
+	private List<Integer> areas(List<Rectangle> rs) {
 		return graph(rs)
 				.disconnectedSubgraphs()
 				.stream()
